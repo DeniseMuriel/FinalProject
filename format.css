@@ -1,0 +1,233 @@
+.avatar-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.avatar-wrapper {
+    display: flex;
+    flex-direction: column; /* Ensures logout text is below the avatar */
+    align-items: center; /* Centers logout text with the avatar */
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.username {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+img.avatar:hover {
+    transform: scale(1.1);
+}
+
+.small-images img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+img.main-image {
+    width: 97%;
+    height: 47vh;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    object-fit: cover;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #f8f5f3;
+    padding: 90px;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #666;
+
+}
+
+
+button {
+    width: 40%;
+    padding: 13px;
+    border: none;
+    border-radius: 30px;
+    background-color: #c9c0b3;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.p1 {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    
+   
+}
+
+.paragraph-container {
+   
+    
+    flex-direction: column;
+  
+    
+}
+
+p.justified {
+    text-align: justify;
+    width: 95%;
+    
+}
+
+.content-container {
+    display: flex;
+  
+    align-items: center;
+    width: 100%; /* Ensure the container spans the full width */
+    gap: 5px;
+}
+
+
+.small-images {
+    display: flex;
+    gap: 10px;
+}
+
+.small-images img {
+    width: 208px;
+    height: 210px;
+    border-radius: 5px;
+}
+
+.update-btn {
+    border: none;
+}
+
+.update-btn:hover {
+    background-color: #b0a59e;
+}
+
+/* Remove bullet points and style navigation */
+nav ul {
+    list-style-type: none; /* No bullets */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display items horizontally */
+    gap: 30px; /* Add space between links */
+}
+
+/* Style the links */
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    font-family: 'Poppins', sans-serif;
+     font-weight: 600; /* Bold font */
+    color: #666; /* Default text color */
+    font-size: 20px; /* Adjust font size */
+    transition: color 0.3s ease; /* Smooth color change on hover */
+    padding: 15px;
+}
+
+/* Change link color on hover */
+nav ul li a:hover {
+    color: #C67C33; /* Hover text color */
+}
+
+/* Container for the additional content, positioned at the bottom */
+#additionalInfoContainer {url("background.png")
+    position: bottom;
+    bottom: 20px; /* Distance from the bottom of the page */
+    left: 20px; /* Distance from the left edge */
+    width: 500px; /* Set the width of the chat box */
+    background-color: #DCC7B1;
+    
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: none; /* Initially hidden */
+    max-height: 300px; /* Set the max height for the container */
+    overflow-y: auto; /* Allow scrolling if content exceeds the height */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Button hover effect */
+#knowMoreButton:hover {
+    background-color: #977E65;
+}
+
+/* Additional info text */
+#additionalInfo {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.logout-text {
+    font-size: 10px;
+    color: #A56A2C;
+    margin-top: 5px; /* Space between the avatar and text */
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0; /* Removes any margin around the text */
+    padding: 0; /* Removes any padding around the text */
+}
+
+
+
+/* Hometown styling */
+
+img {
+  float: left;
+  width: 70%;
+}
+
+h3 {
+    font-size: 30px;  
+    margin-top: 5; /* Removes extra space at the top */
+    gap: 40px;
+    text-indent: 0px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2; /* Optional: Adjusts vertical spacing for better alignment */
+}
+
+
+h5 {
+    padding-top: 0.5px;
+   font-size: 15px;
+   color: #666;
+   font-family: 'Poppins', sans-serif;
+
+}
+
+ p.justified{
+ 	
+ 	width: 90%;
+    padding-bottom: 10px;
+    gap: 10px;
+    
+ }
+ 
+ .para-text {
+
+	text-align: justify;
+	max-width: 1020px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 13px;
+	margin-bottom: 50px;
+
+}
+
+
